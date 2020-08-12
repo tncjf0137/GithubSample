@@ -4,18 +4,28 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFEB3B"
     android:gravity="center"
     tools:context=".MainActivity">
-    <com.github.ybq.android.spinkit.SpinKitView
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        android:id="@+id/spin_kit"
-        style="@style/SpinKitView.Large.CubeGrid"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        app:SpinKit_Color="#03A9F4" />
 
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:entries="@array/test"
+
+        >
+
+
+
+    </Spinner>
+
+<TextView
+    android:id="@+id/tv_result"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+android:text="이건뭐지">
+
+</TextView>
 
 </LinearLayout>
 
