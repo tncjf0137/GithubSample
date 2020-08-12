@@ -10,7 +10,7 @@ import android.webkit.WebViewClient;
 public class MainActivity extends AppCompatActivity {
 
 
-
+//추가한 내용
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
