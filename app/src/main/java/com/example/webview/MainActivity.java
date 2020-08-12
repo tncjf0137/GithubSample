@@ -11,6 +11,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 //추가한 내용
+//두번째 추가 내용
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
