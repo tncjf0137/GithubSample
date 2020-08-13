@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
     <Spinner
@@ -13,19 +14,28 @@
         android:layout_height="40dp"
         android:entries="@array/test"
 
-        >
-
+        android:gravity="center">
 
 
     </Spinner>
 
-<TextView
-    android:id="@+id/tv_result"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-android:text="이건뭐지">
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="월 표시">
 
-</TextView>
+    </TextView>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        app:itemIconTint="@color/colorPrimary"
+        app:itemTextColor="#EF1818"
+
+        app:menu="@menu/bottom_menu" />
 
 </LinearLayout>
 
